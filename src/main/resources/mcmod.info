@@ -1,0 +1,16 @@
+[
+{
+  "modid": "inks_unforgiving",
+  "name": "inks_unforgiving",
+  "description": "inks_unforgiving",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
