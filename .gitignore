@@ -35,12 +35,17 @@ replay_pid*
 
 # Gradle
 .gradle
+.gradle/
+build
 build/
 
 # Other
+eclipse
+eclipse/
 
 # Installation instructions
 README.txt
 
-# Entire run directory
+# Run directory
+run
 run/
