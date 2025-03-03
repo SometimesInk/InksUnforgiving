@@ -1,8 +1,8 @@
 [
 {
-  "modid": "inks_unforgiving",
-  "name": "inks_unforgiving",
-  "description": "inks_unforgiving",
+  "modid": "unforgiving",
+  "name": "unforgiving",
+  "description": "unforgiving",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",

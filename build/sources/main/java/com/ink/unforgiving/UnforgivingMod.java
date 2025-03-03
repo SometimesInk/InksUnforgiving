@@ -1,8 +1,8 @@
 package com.ink.unforgiving;
 
-import com.ink.unforgiving.command.*;
-import com.ink.unforgiving.config.*;
-import com.ink.unforgiving.event.*;
+import com.ink.unforgiving.commands.*;
+import com.ink.unforgiving.configs.*;
+import com.ink.unforgiving.events.*;
 import net.minecraftforge.client.ClientCommandHandler;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
@@ -14,9 +14,8 @@ import java.util.*;
 @Mod(modid = UnforgivingMod.MODID, version = UnforgivingMod.VERSION)
 public class UnforgivingMod
 {
-    public static final String MODID = "inks_unforgiving";
-    public static final String VERSION = "1.0";
-    public static Map<UUID, String> unforgivenPlayers = new HashMap<UUID, String>();
+    public static final String MODID = "unforgiving";
+    public static final String VERSION = "2.0";
 
     @EventHandler
     public void init(FMLInitializationEvent event)
@@ -32,7 +31,7 @@ public class UnforgivingMod
     @EventHandler
     public void preInit(FMLInitializationEvent event) {
         // Load config
-        ConfigKOS.getInstance().load();
-        ConfigCache.getInstance().load();
+        ConfigKOS.get_instance().load();
+        ConfigCache.get_instance().load();
     }
 }
