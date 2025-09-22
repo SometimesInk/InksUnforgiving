@@ -43,9 +43,11 @@ build/
 eclipse
 eclipse/
 
-# Installation instructions
-README.txt
-
 # Run directory
 run
 run/
+/run
+/run/
+
+# Big files
+*.hprof

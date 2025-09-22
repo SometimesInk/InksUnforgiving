@@ -1,0 +1,18 @@
+# a -- Info
+# e -- Warning
+# 4 -- Error
+command.unforgiving.kos.add.usage=/kos add <player> <type> [reason...]
+command.unforgiving.kos.add.type=§4Type '§6%s§4' does not exist.§r
+command.unforgiving.kos.add.success=§aPlayer '§6%s§a' was added to KOS list.§r
+command.unforgiving.kos.add.duplicate=§ePlayer '§6%s§e' is already in KOS list.§r
+command.unforgiving.kos.add.cache=§aPlayer '§6%s§a' was cached to KOS list.§r
+
+command.unforgiving.kos.list.usage=/kos list
+command.unforgiving.kos.list.header=§aFound §6%i§a players:§r
+command.unforgiving.kos.list.entry=§a - §r%s%s§a : %s§r
+
+command.unforgiving.kos.get.usage=/kos get <player>
+command.unforgiving.kos.get.contain=§4Player '§6%s§4' does not exist.§r
+command.unforgiving.kos.get.1=§aFound player '§6%s§a':§r
+command.unforgiving.kos.get.2=§a - Type: §r%s§a§r
+command.unforgiving.kos.get.3=§a - Reason: §6%s§r
